@@ -1,0 +1,47 @@
+.basics {
+    padding: 5% 0;
+    width: 50%;
+
+    @media (max-width: 840px) {
+        width: 100%;
+    }
+
+    .basics-items {
+        display: flex;
+
+        li {
+            padding: 0 5%;
+
+            .big-item {
+                font-weight: bold;
+                font-size: larger;
+                text-align: center;
+                font-size: 34px;
+                color: white;
+
+                @media (max-width: 1000px) {
+                    font-size: 24px;
+                }
+            }
+
+            .small-item {
+                font-size: 28px;
+                color: white;
+                text-align: center;
+                font-weight: normal;
+
+                @media (max-width: 1000px) {
+                    font-size: 20px;
+                }
+            }
+
+            .normal-item-text {
+                font-size: 34px !important;
+
+                @media (max-width: 1000px) {
+                    font-size: 24px !important;
+                }
+            }
+        }
+    }
+}

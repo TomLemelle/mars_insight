@@ -1,0 +1,20 @@
+.header {
+    height: 34px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: rgba($lightBlack, 0.5);
+
+    .nav {
+        padding-right: 10px;
+        div {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 19px;
+            line-height: 16px;
+            color: #eee;
+            font-weight: normal;
+        }
+    }
+}
