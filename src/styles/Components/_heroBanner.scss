@@ -1,0 +1,51 @@
+.herobanner {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 0;
+
+    @media (max-width: 840px) {
+        width: 100%;
+    }
+
+    .herobanner-items {
+        display: flex;
+        flex-direction: column;
+        li {
+            margin: 10px 0;
+
+            h1 {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 38px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                line-height: normal;
+                padding: .5em 0 0;
+                color: $white;
+
+                @media (max-width: 1000px) {
+                    font-size: 28px;
+                }
+
+                @media (max-width: 840px) {
+                    font-size: 25px;
+                }
+            }
+            p {
+                line-height: normal;
+                width: 95%;
+                text-align: left;
+                font-size: 19px;
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+
+                @media (max-width: 1000px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

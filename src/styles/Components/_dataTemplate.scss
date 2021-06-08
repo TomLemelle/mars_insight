@@ -1,0 +1,50 @@
+.data-item {
+    width: 13.5%;
+    background-color: rgba(0,0,0,0.25);
+    padding: 15px 0.2%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 30px;
+
+    @media (max-width: 840px) {
+        width: calc(85% / 3);
+    }
+
+    @media (max-width: 500) {
+        display: flex;
+        width: 100%;
+    }
+
+    .date-sol {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .date-UTC {
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0;
+        display: block;
+    }
+
+    .fade-whiteline {
+        background-color: rgba(255,255,255,0.5);
+        height: 2px;
+        width: 80%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .celsius {
+        .high, .low {
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 1px;
+            font-size: 14px;
+            padding: 10px 0 !important;
+        }
+    }
+}
