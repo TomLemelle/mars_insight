@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+Netlify app:
+https://app.netlify.com/sites/priceless-kepler-6961bd/deploys
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
